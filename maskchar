@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	char x;
+	int maskchar;
+
+	cout << "Bitte geben Sie einen Buchstaben ein!\n";
+	cin >> x;
+
+	maskchar = 32;
+
+	x = x ^ 32;
+
+	cout << x << endl;
+
+	return 0;
+}
